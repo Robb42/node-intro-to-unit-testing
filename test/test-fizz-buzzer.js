@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const fizzBuzzer = require('../fizzBuzzer.js');
 
 describe('fizzBuzzer', function () {
-    it('should return fizz-buzz if num is divisible by 3 and 5', function () {
+    it('should return fizz, buzz or fizz-buzz depending on if the num is divisible by 3, 5 or both', function () {
         const normalCases = [
             {num: 15, expected: 'fizz-buzz'},
             {num: 30, expected: 'fizz-buzz'},
